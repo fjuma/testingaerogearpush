@@ -11,5 +11,14 @@ locked_files:
 - env/OPENSHIFT_AG_UNIFIED_PUSH_VERSION
 - env/M2_HOME
 - standalone/deployments/*
+- versions/0.8.0/modules/org/
+- versions/0.8.0/modules/org/jboss/
+- versions/0.8.0/modules/org/jboss/aerogear/
+- versions/0.8.0/modules/org/jboss/aerogear/netty/
+- versions/0.8.0/modules/org/jboss/aerogear/netty/main/
+- versions/0.8.0/modules/org/jboss/aerogear/netty/main/*
+- versions/0.8.0/modules/org/jboss/aerogear/simplepush/
+- versions/0.8.0/modules/org/jboss/aerogear/simplepush/main/
+- versions/0.8.0/modules/org/jboss/aerogear/simplepush/main/*
 processed_templates:
 - '**/*.erb'
