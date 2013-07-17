@@ -6,7 +6,7 @@ Provides the AeroGear Unified Push Server running on top of JBoss Application Se
 The AeroGear Unified Push Server defaults to using MySQL. When creating your application, you'll also want to add the MySQL cartridge:
 
 ```
-rhc app create <APP> ag-unified-push mysql-5.1
+rhc app create <APP> aerogear-push mysql-5.1
 ```
 
 ## Template Repository Layout
@@ -21,15 +21,15 @@ rhc app create <APP> ag-unified-push mysql-5.1
 
 ## Environment Variables
 
-The `ag-unified-push` cartridge provides several environment variables to reference for ease
+The `aerogear-push` cartridge provides several environment variables to reference for ease
 of use:
 
-    OPENSHIFT_AG_UNIFIED_PUSH_IP                         The IP address used to bind JBossAS
-    OPENSHIFT_AG_UNIFIED_PUSH_HTTP_PORT                  The JBossAS listening port
-    OPENSHIFT_AG_UNIFIED_PUSH_CLUSTER_PORT               
-    OPENSHIFT_AG_UNIFIED_PUSH_MESSAGING_PORT             
-    OPENSHIFT_AG_UNIFIED_PUSH_MESSAGING_THROUGHPUT_PORT  
-    OPENSHIFT_AG_UNIFIED_PUSH_REMOTING_PORT              
+    OPENSHIFT_AEROGEAR_PUSH_IP                         The IP address used to bind JBossAS
+    OPENSHIFT_AEROGEAR_PUSH_HTTP_PORT                  The JBossAS listening port
+    OPENSHIFT_AEROGEAR_PUSH_CLUSTER_PORT               
+    OPENSHIFT_AEROGEAR_PUSH_MESSAGING_PORT             
+    OPENSHIFT_AEROGEAR_PUSH_MESSAGING_THROUGHPUT_PORT  
+    OPENSHIFT_AEROGEAR_PUSH_REMOTING_PORT              
 
 For more information about environment variables, consult the
 [OpenShift Application Author Guide](https://github.com/openshift/origin-server/blob/master/node/README.writing_applications.md).

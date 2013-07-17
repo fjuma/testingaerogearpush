@@ -1,8 +1,8 @@
-%global cartridgedir %{_libexecdir}/openshift/cartridges/ag-unified-push
+%global cartridgedir %{_libexecdir}/openshift/cartridges/aerogear-push
 %global jbossver 7.1.1.Final
 
 Summary:       Provides the AeroGear Unified Push Server on top of JBossAS7
-Name:          openshift-origin-cartridge-ag-unified-push
+Name:          openshift-origin-cartridge-aerogear-push
 Version: 1.0.0
 Release:       1%{?dist}
 Group:         Development/Languages
